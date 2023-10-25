@@ -11,8 +11,20 @@ const inquirer = readline.createInterface({
 
 const array = [
   { myId: 1, Country: "cameroon" },
-  { myId: 2, Country: "algeria" },
-  { myId: 3, Country: "angola" },
+  { myId: 2, Country: "nigeria" },
+  { myId: 3, Country: "algeria" },
+  { myId: 4, Country: "nigeria" },
+  { myId: 5, Country: "niger" },
+  { myId: 6, Country: "ivory_coast" },
+  { myId: 7, Country: "france" },
+  { myId: 8, Country: "germany" },
+  { myId: 9, Country: "angola" },
+  { myId: 10, Country: "canada" },
+  { myId: 11, Country: "chad" },
+  { myId: 12, Country: "china" },
+  { myId: 13, Country: "egypt" },
+  { myId: 14, Country: "tunisia" },
+  { myId: 15, Country: "togo" },
 ];
 
 const transformed = array.reduce((acc: any, { myId, ...x }) => {
