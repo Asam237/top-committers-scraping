@@ -3,6 +3,9 @@
 A list of the most active GitHub users
 
 <br/>
+<br />
+Web scraper for the most active GitHub users on Wakatime, providing up-to-date data on their activity.
+<br />
 
 ## Composition
 
